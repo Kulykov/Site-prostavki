@@ -2,115 +2,120 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pro Stavki — Всё о ставках, стратегиях и бонусах</title>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProStavki | Всё о ставках и стратегиях</title>
+
+  <!-- SEO -->
+  <meta name="description" content="ProStavki — сайт с простыми стратегиями ставок, актуальными бонусами, советами и гайд по банк-менеджменту. Только честный контент." />
+  <meta name="keywords" content="ставки, спорт, стратегии, бонусы, лайв ставки, банк-менеджмент, прогнозы, 1win" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="qVBzffnRapCtVdwb5fEVF0aD-luuTIHizwDZQF_KTiI" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ProStavki — Всё о ставках и бонусах" />
+  <meta property="og:description" content="Лучшие стратегии, бонусы, советы и гайды. Присоединяйся к ProStavki." />
+  <meta property="og:url" content="https://твой-сайт.render.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://твой-сайт.render.com/preview.jpg" />
+
   <style>
     body {
-      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      font-family: Arial, sans-serif;
       background: #f8f9fa;
-      color: #222;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 20px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #0056b3);
+      color: white;
+      padding: 2rem 1rem;
       text-align: center;
     }
-    header {
-      width: 100%;
-      background: linear-gradient(135deg, #005bbb, #1e90ff);
-      color: #f5f5f5;
-      padding: 40px 20px;
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    header h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3.2rem;
-      margin-bottom: 0.2em;
+
+    h2 {
+      margin: 0.5rem 0 0;
+      font-weight: 400;
     }
-    header h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 2rem;
-      margin-top: 0.3em;
+
+    .container {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: 0 auto;
     }
-    nav {
-      margin: 2.5rem 0 4rem;
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      width: 260px;
-    }
-    nav a {
-      background: #005bbb;
-      color: #fff;
-      font-weight: 700;
-      font-size: 1.15rem;
-      padding: 0.85em 1.2em;
-      border-radius: 10px;
+
+    .button {
+      display: block;
+      background: #007bff;
+      color: white;
       text-decoration: none;
-      transition: background-color 0.3s ease;
-      box-shadow: 0 4px 8px rgba(0,91,187,0.3);
+      padding: 1rem;
+      margin: 0.5rem 0;
+      border-radius: 8px;
+      text-align: center;
+      transition: background 0.3s;
     }
-    nav a:hover {
-      background: #1e90ff;
-      box-shadow: 0 6px 12px rgba(30,144,255,0.6);
+
+    .button:hover {
+      background: #0056b3;
     }
-    section.description {
-      max-width: 500px;
-      line-height: 1.5;
-      font-size: 1.1rem;
-      margin-bottom: 3.5rem;
+
+    .section-title {
+      text-align: center;
+      margin-top: 3rem;
+      font-size: 1.5rem;
+      font-weight: bold;
     }
-    section.description:last-of-type {
-      margin-bottom: 2rem;
-    }
+
     footer {
-      margin-top: auto;
-      padding: 20px 0 10px;
+      text-align: center;
+      margin-top: 3rem;
+      padding: 2rem;
       font-size: 0.9rem;
-      color: #555;
-    }
-    footer a {
-      color: #005bbb;
-      text-decoration: none;
-    }
-    footer a:hover {
-      text-decoration: underline;
+      color: #666;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Pro Stavki</h1>
+    <h1>ProStavki</h1>
     <h2>Всё о ставках, стратегиях и бонусах</h2>
   </header>
 
-  <nav>
-    <a href="articles.html">👉 Читать статьи</a>
-    <a href="https://1wvteh.com/?p=7bd0" target="_blank">🎁 Получить бонус</a>
-    <a href="https://t.me/tvoy_prognoz365_bot" target="_blank">🤖 Telegram-бот</a>
-    <a href="https://t.me/ProStavki_365" target="_blank">📣 Наш канал</a>
-  </nav>
+  <div class="container">
+    <a class="button" href="/vse-stati.html">👉 Читать статьи</a>
+    <a class="button" href="https://1wvteh.com/?p=7bd0" target="_blank">🎁 Получить бонус</a>
+    <a class="button" href="https://t.me/tvoy_prognoz365_bot" target="_blank">🤖 Telegram-бот</a>
+    <a class="button" href="https://t.me/ProStavki_365" target="_blank">📣 Наш канал</a>
 
-  <section class="description">
-    <p>💬 <strong>Что вы найдёте на сайте:</strong></p>
-    <p>✅ Простые и эффективные стратегии</p>
-    <p>✅ Актуальные бонусы и акции</p>
-    <p>✅ Ежедневные советы по live-ставкам</p>
-    <p>✅ Гайд по банк-менеджменту</p>
-    <p>✅ Только полезный и честный контент.</p>
-  </section>
+    <div class="section-title">💬 Что вы найдёте на сайте:</div>
+    <ul>
+      <li>✅ Простые и эффективные стратегии</li>
+      <li>✅ Актуальные бонусы и акции</li>
+      <li>✅ Ежедневные советы по live-ставкам</li>
+      <li>✅ Гайд по банк-менеджменту</li>
+      <li>✅ Только полезный и честный контент.</li>
+    </ul>
 
-  <section class="description">
-    <p>🔐 <strong>Для кого это?</strong></p>
-    <p>— Новичков, кто только заходит в ставки</p>
-    <p>— Продвинутых игроков, кто ищет стабильность</p>
-    <p>— Всех, кто хочет делать ставки с умом, а не по эмоциям.</p>
-  </section>
+    <div class="section-title">🔐 Для кого это?</div>
+    <ul>
+      <li>— Новичков, кто только заходит в ставки</li>
+      <li>— Продвинутых игроков, кто ищет стабильность</li>
+      <li>— Всех, кто хочет делать ставки с умом, а не по эмоциям.</li>
+    </ul>
+  </div>
 
   <footer>
-    Авторский проект ProStavki ©<br />
-    Связь с админом — через <a href="https://t.me/tvoy_prognoz365_bot" target="_blank">бота</a>.
+    Авторский проект ProStavki ©<br>
+    Связь с админом — через бота.
   </footer>
+
 </body>
 </html>
